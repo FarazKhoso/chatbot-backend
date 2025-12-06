@@ -1,0 +1,8 @@
+# Python requirements for the agents framework
+# Since your code imports from a local agents package, we'll need to implement it
+# For now, we'll install the core dependencies
+google-generativeai
+python-dotenv
+flask-jwt-extended
+pymongo
+bcrypt

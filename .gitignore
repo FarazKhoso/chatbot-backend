@@ -1,0 +1,46 @@
+# === Node Modules ===
+node_modules/
+
+# === Environment Variables ===
+.env
+
+# === Build Output ===
+dist/
+build/
+.cache/
+.next/
+out/
+
+# === Logs ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# === OS / Editor Files ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# === Temp Files ===
+*.tmp
+*.temp
+
+# === Runtime Files ===
+*.pid
+*.seed
+*.crt
+*.pem
+
+# === Custom Files You Don't Want to Push ===
+secret.js
+config.private.js
+
+# === Ignore Package Files (optional) ===
+package.json
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
